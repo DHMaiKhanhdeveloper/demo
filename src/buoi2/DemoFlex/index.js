@@ -18,7 +18,7 @@ export default class DemoFlex extends Component {
               backgroundColor: '#3D85C6',
               flex: 2,
               width: 100,
-              height: 100,
+              height: 500,
             }}
           />
           <View
