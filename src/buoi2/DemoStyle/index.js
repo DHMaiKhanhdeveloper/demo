@@ -5,16 +5,16 @@ export default class DemoStyle extends Component {
   render() {
     return (
       <View style={{flex: 1, margin: 20}}>
-        <View style={[styles.BoxStyle, styles.BoxStylePurple]}>
+        <View style={styles.BoxStyle}>
           <Text>Purple: #C9C9FF</Text>
         </View>
-        <View style={[styles.BoxStyle, styles.BoxStyleBlue]}>
+        <View style={styles.BoxStyle}>
           <Text>Blue: #3D85C6</Text>
         </View>
-        <View style={[styles.BoxStyle, styles.BoxStyleGreen]}>
+        <View style={styles.BoxStyle}>
           <Text>Green: #96CC96</Text>
         </View>
-        <View style={[styles.BoxStyle, styles.BoxStyleYellow]}>
+        <View style={styles.BoxStyle}>
           <Text>Yellow: #F4B940</Text>
         </View>
       </View>
@@ -29,21 +29,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 20,
-  },
-  textStyle: {
-    fontWeight: 20,
-  },
-  BoxStyleGreen: {
-    backgroundColor: '#96CC96',
-  },
-  BoxStyleBlue: {
-    backgroundColor: '#3D85C6',
-  },
-  BoxStyleYellow: {
-    backgroundColor: '#F4B940',
-  },
-  BoxStylePurple: {
-    backgroundColor: '#C9C9FF',
   },
 });
 const BoxStyle = {
